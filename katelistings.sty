@@ -1,0 +1,28 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{katelistings}
+
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+\RequirePackage{fontenc}
+\RequirePackage{xcolor}
+\RequirePackage{alltt}
+\RequirePackage[normalem]{ulem}
+\RequirePackage{environ}
+
+\newcommand{\katelistings@dir}{katelistings/}
+\newcommand{\setkatelistingsdir}[1]{\renewcommand{\katelistings@dir}{#1}}
+
+\newcommand{\katelistings@size}{\small}
+\newcommand{\setkatelistingssize}[1]{\renewcommand{\katelistings@size}{#1}}
+
+\newcounter{katelistings@counter}
+
+\newcommand{\usekatelistingslanguage}[1]{\usepackage{#1.lst}}
+
+\NewEnviron{katelistings}[1]{%
+        \begin{alltt}\katelistings@size
+            \input{\katelistings@dir/\jobname_\arabic{katelistings@counter}.lst}%
+        \end{alltt}%
+        \stepcounter{katelistings@counter}%
+    }
+    
