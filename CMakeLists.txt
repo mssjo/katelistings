@@ -10,7 +10,7 @@ add_compile_options(-fmax-errors=10)
 
 
 file(GLOB SOURCES src/*.cpp)
-file(GLOB UTIL_SOURCES lib/util/file_parser.cpp lib/util/src/dom_element.cpp lib/util/src/file_utils.cpp lib/util/char_utils.cpp)
+file(GLOB UTIL_SOURCES lib/util/src/file_parser.cpp lib/util/src/dom_element.cpp lib/util/src/file_utils.cpp lib/util/src/char_utils.cpp)
 
 add_definitions(-DKATELISTINGS_DIR="${CMAKE_SOURCE_DIR}")
 

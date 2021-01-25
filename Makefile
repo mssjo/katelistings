@@ -153,125 +153,125 @@ katelistings/fast:
 	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/build
 .PHONY : katelistings/fast
 
-home/mssjo/Code/util/src/char_utils.o: home/mssjo/Code/util/src/char_utils.cpp.o
+lib/util/src/char_utils.o: lib/util/src/char_utils.cpp.o
 
-.PHONY : home/mssjo/Code/util/src/char_utils.o
-
-# target to build an object file
-home/mssjo/Code/util/src/char_utils.cpp.o:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/char_utils.cpp.o
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/char_utils.cpp.o
-.PHONY : home/mssjo/Code/util/src/char_utils.cpp.o
-
-home/mssjo/Code/util/src/char_utils.i: home/mssjo/Code/util/src/char_utils.cpp.i
-
-.PHONY : home/mssjo/Code/util/src/char_utils.i
-
-# target to preprocess a source file
-home/mssjo/Code/util/src/char_utils.cpp.i:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/char_utils.cpp.i
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/char_utils.cpp.i
-.PHONY : home/mssjo/Code/util/src/char_utils.cpp.i
-
-home/mssjo/Code/util/src/char_utils.s: home/mssjo/Code/util/src/char_utils.cpp.s
-
-.PHONY : home/mssjo/Code/util/src/char_utils.s
-
-# target to generate assembly for a file
-home/mssjo/Code/util/src/char_utils.cpp.s:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/char_utils.cpp.s
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/char_utils.cpp.s
-.PHONY : home/mssjo/Code/util/src/char_utils.cpp.s
-
-home/mssjo/Code/util/src/dom_element.o: home/mssjo/Code/util/src/dom_element.cpp.o
-
-.PHONY : home/mssjo/Code/util/src/dom_element.o
+.PHONY : lib/util/src/char_utils.o
 
 # target to build an object file
-home/mssjo/Code/util/src/dom_element.cpp.o:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/dom_element.cpp.o
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/dom_element.cpp.o
-.PHONY : home/mssjo/Code/util/src/dom_element.cpp.o
+lib/util/src/char_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/char_utils.cpp.o
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/char_utils.cpp.o
+.PHONY : lib/util/src/char_utils.cpp.o
 
-home/mssjo/Code/util/src/dom_element.i: home/mssjo/Code/util/src/dom_element.cpp.i
+lib/util/src/char_utils.i: lib/util/src/char_utils.cpp.i
 
-.PHONY : home/mssjo/Code/util/src/dom_element.i
+.PHONY : lib/util/src/char_utils.i
 
 # target to preprocess a source file
-home/mssjo/Code/util/src/dom_element.cpp.i:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/dom_element.cpp.i
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/dom_element.cpp.i
-.PHONY : home/mssjo/Code/util/src/dom_element.cpp.i
+lib/util/src/char_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/char_utils.cpp.i
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/char_utils.cpp.i
+.PHONY : lib/util/src/char_utils.cpp.i
 
-home/mssjo/Code/util/src/dom_element.s: home/mssjo/Code/util/src/dom_element.cpp.s
+lib/util/src/char_utils.s: lib/util/src/char_utils.cpp.s
 
-.PHONY : home/mssjo/Code/util/src/dom_element.s
+.PHONY : lib/util/src/char_utils.s
 
 # target to generate assembly for a file
-home/mssjo/Code/util/src/dom_element.cpp.s:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/dom_element.cpp.s
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/dom_element.cpp.s
-.PHONY : home/mssjo/Code/util/src/dom_element.cpp.s
+lib/util/src/char_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/char_utils.cpp.s
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/char_utils.cpp.s
+.PHONY : lib/util/src/char_utils.cpp.s
 
-home/mssjo/Code/util/src/file_parser.o: home/mssjo/Code/util/src/file_parser.cpp.o
+lib/util/src/dom_element.o: lib/util/src/dom_element.cpp.o
 
-.PHONY : home/mssjo/Code/util/src/file_parser.o
+.PHONY : lib/util/src/dom_element.o
 
 # target to build an object file
-home/mssjo/Code/util/src/file_parser.cpp.o:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/file_parser.cpp.o
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/file_parser.cpp.o
-.PHONY : home/mssjo/Code/util/src/file_parser.cpp.o
+lib/util/src/dom_element.cpp.o:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/dom_element.cpp.o
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/dom_element.cpp.o
+.PHONY : lib/util/src/dom_element.cpp.o
 
-home/mssjo/Code/util/src/file_parser.i: home/mssjo/Code/util/src/file_parser.cpp.i
+lib/util/src/dom_element.i: lib/util/src/dom_element.cpp.i
 
-.PHONY : home/mssjo/Code/util/src/file_parser.i
+.PHONY : lib/util/src/dom_element.i
 
 # target to preprocess a source file
-home/mssjo/Code/util/src/file_parser.cpp.i:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/file_parser.cpp.i
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/file_parser.cpp.i
-.PHONY : home/mssjo/Code/util/src/file_parser.cpp.i
+lib/util/src/dom_element.cpp.i:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/dom_element.cpp.i
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/dom_element.cpp.i
+.PHONY : lib/util/src/dom_element.cpp.i
 
-home/mssjo/Code/util/src/file_parser.s: home/mssjo/Code/util/src/file_parser.cpp.s
+lib/util/src/dom_element.s: lib/util/src/dom_element.cpp.s
 
-.PHONY : home/mssjo/Code/util/src/file_parser.s
+.PHONY : lib/util/src/dom_element.s
 
 # target to generate assembly for a file
-home/mssjo/Code/util/src/file_parser.cpp.s:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/file_parser.cpp.s
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/file_parser.cpp.s
-.PHONY : home/mssjo/Code/util/src/file_parser.cpp.s
+lib/util/src/dom_element.cpp.s:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/dom_element.cpp.s
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/dom_element.cpp.s
+.PHONY : lib/util/src/dom_element.cpp.s
 
-home/mssjo/Code/util/src/file_utils.o: home/mssjo/Code/util/src/file_utils.cpp.o
+lib/util/src/file_parser.o: lib/util/src/file_parser.cpp.o
 
-.PHONY : home/mssjo/Code/util/src/file_utils.o
+.PHONY : lib/util/src/file_parser.o
 
 # target to build an object file
-home/mssjo/Code/util/src/file_utils.cpp.o:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/file_utils.cpp.o
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/file_utils.cpp.o
-.PHONY : home/mssjo/Code/util/src/file_utils.cpp.o
+lib/util/src/file_parser.cpp.o:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/file_parser.cpp.o
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/file_parser.cpp.o
+.PHONY : lib/util/src/file_parser.cpp.o
 
-home/mssjo/Code/util/src/file_utils.i: home/mssjo/Code/util/src/file_utils.cpp.i
+lib/util/src/file_parser.i: lib/util/src/file_parser.cpp.i
 
-.PHONY : home/mssjo/Code/util/src/file_utils.i
+.PHONY : lib/util/src/file_parser.i
 
 # target to preprocess a source file
-home/mssjo/Code/util/src/file_utils.cpp.i:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/file_utils.cpp.i
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/file_utils.cpp.i
-.PHONY : home/mssjo/Code/util/src/file_utils.cpp.i
+lib/util/src/file_parser.cpp.i:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/file_parser.cpp.i
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/file_parser.cpp.i
+.PHONY : lib/util/src/file_parser.cpp.i
 
-home/mssjo/Code/util/src/file_utils.s: home/mssjo/Code/util/src/file_utils.cpp.s
+lib/util/src/file_parser.s: lib/util/src/file_parser.cpp.s
 
-.PHONY : home/mssjo/Code/util/src/file_utils.s
+.PHONY : lib/util/src/file_parser.s
 
 # target to generate assembly for a file
-home/mssjo/Code/util/src/file_utils.cpp.s:
-	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/home/mssjo/Code/util/src/file_utils.cpp.s
-	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/home/mssjo/Code/util/src/file_utils.cpp.s
-.PHONY : home/mssjo/Code/util/src/file_utils.cpp.s
+lib/util/src/file_parser.cpp.s:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/file_parser.cpp.s
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/file_parser.cpp.s
+.PHONY : lib/util/src/file_parser.cpp.s
+
+lib/util/src/file_utils.o: lib/util/src/file_utils.cpp.o
+
+.PHONY : lib/util/src/file_utils.o
+
+# target to build an object file
+lib/util/src/file_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/file_utils.cpp.o
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/file_utils.cpp.o
+.PHONY : lib/util/src/file_utils.cpp.o
+
+lib/util/src/file_utils.i: lib/util/src/file_utils.cpp.i
+
+.PHONY : lib/util/src/file_utils.i
+
+# target to preprocess a source file
+lib/util/src/file_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/file_utils.cpp.i
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/file_utils.cpp.i
+.PHONY : lib/util/src/file_utils.cpp.i
+
+lib/util/src/file_utils.s: lib/util/src/file_utils.cpp.s
+
+.PHONY : lib/util/src/file_utils.s
+
+# target to generate assembly for a file
+lib/util/src/file_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/map_languages.dir/build.make CMakeFiles/map_languages.dir/lib/util/src/file_utils.cpp.s
+	$(MAKE) -f CMakeFiles/katelistings.dir/build.make CMakeFiles/katelistings.dir/lib/util/src/file_utils.cpp.s
+.PHONY : lib/util/src/file_utils.cpp.s
 
 map_languages.o: map_languages.cpp.o
 
@@ -526,18 +526,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... katelistings"
 	@echo "... map_languages"
-	@echo "... home/mssjo/Code/util/src/char_utils.o"
-	@echo "... home/mssjo/Code/util/src/char_utils.i"
-	@echo "... home/mssjo/Code/util/src/char_utils.s"
-	@echo "... home/mssjo/Code/util/src/dom_element.o"
-	@echo "... home/mssjo/Code/util/src/dom_element.i"
-	@echo "... home/mssjo/Code/util/src/dom_element.s"
-	@echo "... home/mssjo/Code/util/src/file_parser.o"
-	@echo "... home/mssjo/Code/util/src/file_parser.i"
-	@echo "... home/mssjo/Code/util/src/file_parser.s"
-	@echo "... home/mssjo/Code/util/src/file_utils.o"
-	@echo "... home/mssjo/Code/util/src/file_utils.i"
-	@echo "... home/mssjo/Code/util/src/file_utils.s"
+	@echo "... lib/util/src/char_utils.o"
+	@echo "... lib/util/src/char_utils.i"
+	@echo "... lib/util/src/char_utils.s"
+	@echo "... lib/util/src/dom_element.o"
+	@echo "... lib/util/src/dom_element.i"
+	@echo "... lib/util/src/dom_element.s"
+	@echo "... lib/util/src/file_parser.o"
+	@echo "... lib/util/src/file_parser.i"
+	@echo "... lib/util/src/file_parser.s"
+	@echo "... lib/util/src/file_utils.o"
+	@echo "... lib/util/src/file_utils.i"
+	@echo "... lib/util/src/file_utils.s"
 	@echo "... map_languages.o"
 	@echo "... map_languages.i"
 	@echo "... map_languages.s"
