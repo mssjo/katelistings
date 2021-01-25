@@ -1,0 +1,7 @@
+CMakeFiles/
+*.cmake
+
+themes/
+syntaxes/
+
+language_map.xml
