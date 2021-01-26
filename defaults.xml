@@ -3,5 +3,5 @@
 <!-- default theme for katelistings -->
 
 <defaults>
-     <theme path="themes/breeze-dark.theme" />
+     <theme path="themes/breeze-light.theme" />
 </defaults>

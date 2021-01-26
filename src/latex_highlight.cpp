@@ -1,5 +1,7 @@
 #include "katelistings.hpp"
 
+using fp = util::file_parser;
+
 std::string get_ID(){
     //TODO: more portable version with no risk for collision
     return std::to_string( getpid() );
@@ -132,14 +134,18 @@ void latex_highlight::do_inline_job(std::istream& in,
     
     file_parser parser(in);
     
-    for(size_t lst_counter = 0;; ++lst_counter){
+    for(size_t lst_counter = 0;;){
         parser.set_mark();
-        parser.seek("\\begin{katelistings}", file_parser::consume);
-        
-        if(!parser)
+        if(!parser.seek("\\begin{katelistings}", fp::consume))
             break;
         
-        parser.seek('{', file_parser::consume, "Missing language argument");
+        //Check for comment (is fooled by escaped comment char)
+        if(parser.seek('%', fp::backwards | fp::single_line | fp::lookahead))
+            continue;
+        else
+            ++lst_counter;
+        
+        parser.seek('{', fp::consume, "Missing language argument");
                 
         parser.set_mark();
         parser.seek('}', 0, "Language argument not closed, '}' expected");
@@ -159,7 +165,7 @@ void latex_highlight::do_inline_job(std::istream& in,
                 
         parser.advance_line();
         parser.set_mark();
-        parser.seek_not_of(file_parser::whitespace, file_parser::single_line);
+        parser.seek_not_of(fp::whitespace, fp::single_line);
         
         std::stringstream tmp;
         
@@ -189,7 +195,7 @@ void latex_highlight::process_inline_listing(file_parser& parser, std::ostream& 
             parser.error("File ended prematuely, \"\\end{katelistings}\" expected");
                     
         for(size_t i = 0; parser && i < leading_space; ++i){
-            if(parser.match("\\end{katelistings}", file_parser::consume))
+            if(parser.match("\\end{katelistings}", fp::consume))
                 return;
                 
             ++parser;

@@ -326,8 +326,8 @@ int main(int argc, char** argv){
     
       
     if(PRINT_OPT(NORMAL)){
-        std::cout << "This is katelistings, version 0.3\n"
-                  << "Written by Mattias Sjö 2021-01-20\n" 
+        std::cout << "This is katelistings, version 0.3.1\n"
+                  << "Written by Mattias Sjö 2021-01-26\n" 
                   << std::endl;
     }
     

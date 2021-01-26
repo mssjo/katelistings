@@ -7,22 +7,31 @@
 \RequirePackage{xcolor}
 \RequirePackage{alltt}
 \RequirePackage[normalem]{ulem}
-\RequirePackage{environ}
+\RequirePackage{verbatim}
 
+%The directory used to find listing files
 \newcommand{\katelistings@dir}{katelistings/}
 \newcommand{\setkatelistingsdir}[1]{\renewcommand{\katelistings@dir}{#1}}
 
+%The font size used in listings
 \newcommand{\katelistings@size}{\small}
 \newcommand{\setkatelistingssize}[1]{\renewcommand{\katelistings@size}{#1}}
 
+%The listings counter, used to identify listing files
 \newcounter{katelistings@counter}
 
+%Import macros if -c option was used
 \newcommand{\usekatelistingslanguage}[1]{\usepackage{#1.lst}}
 
-\NewEnviron{katelistings}[1]{%
+%This macro lives a double life:
+% To katelistings, it just delimits a block of code and names the language (#1).
+% To LaTeX, it discards both its argument and its contents, but inputs
+% the listing file and typesets it alltt (i.e. like verbatim, but respecting
+% the formatting macros written by katelistings)
+\newenvironment{katelistings}[1]{%
         \begin{alltt}\katelistings@size
             \input{\katelistings@dir/\jobname_\arabic{katelistings@counter}.lst}%
         \end{alltt}%
         \stepcounter{katelistings@counter}%
-    }
+        \comment}{\endcomment}
     
