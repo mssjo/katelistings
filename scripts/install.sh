@@ -7,4 +7,4 @@ echo "Compiling program"
 cmake . && make katelistings && make map_languages || exit 1
 
 echo "Obtaining data"
-katelistings --get-data && echo "Installation successful."
+katelistings --get-data echo "Installation successful."

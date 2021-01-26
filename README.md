@@ -19,7 +19,7 @@ This will compile the program and download all themes and syntaxes provided by K
 ```
 $ katelistings -h
 ```
-will give you a summary of how to use it.
+will give you a summary of how to use it. Use -T the first time you highlight a file to set your default theme; katelistings does not know how to read your system defaults.
 
 ## Custom syntax files
 Follow Kate's [guidelines](https://docs.kde.org/trunk5/en/applications/katepart/highlight.html) on how to write a syntax highlighting file, and place the result somewhere under `syntaxes/` in katelisting's home folder. Finally, run
