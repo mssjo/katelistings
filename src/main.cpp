@@ -132,10 +132,10 @@ std::string get_theme(const std::string& filename){
     else
         theme_path = filename;
                                             
-    theme_path = util::default_extension_and_dir(theme_path, "themes/", ".theme");
+    theme_path = util::default_extension_and_dir(theme_path, ".theme", "themes/");
     
     if(!util::file_exists(theme_path)){
-        std::cerr << "ERROR: Theme \"" << theme_path << "\" not found";
+        std::cerr << "ERROR: Theme \"" << theme_path << "\" not found\n";
         exit(EXIT_FAILURE);
     }
     
@@ -185,7 +185,7 @@ void overwrite_defaults(const std::string& theme_file, print_options opts){
         << "<!-- default theme for katelistings -->\n\n"
         << "<defaults>\n"
         << "     <theme path=\"" << theme_file << "\" />\n"
-        << "</defaults>\n";
+        << "</defaults>" << std::endl;
         
     if(PRINT_OPT(DEBUG)){
         dom_element deflt;
