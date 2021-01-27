@@ -142,8 +142,6 @@ void latex_highlight::do_inline_job(std::istream& in,
         //Check for comment (is fooled by escaped comment char)
         if(parser.seek('%', fp::backwards | fp::single_line | fp::lookahead))
             continue;
-        else
-            ++lst_counter;
         
         parser.seek('{', fp::consume, "Missing language argument");
                 
@@ -182,6 +180,8 @@ void latex_highlight::do_inline_job(std::istream& in,
             std::cout << "...done. Output written to \"" << out_file << "\".\n";
         
         out.close();
+        
+        ++lst_counter;
     }
 }
 
